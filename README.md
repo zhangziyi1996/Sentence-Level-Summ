@@ -4,7 +4,7 @@
  
  ### Model Structure
  
-![Model structure](https://github.com/zhangziyi1996/Sentence-Level-Summ/assets/143377198/bbfa45e8-52af-4b43-8edf-7436a0203976)      
+![Model structure](Images/Model structure.png)      
 <p align="justify">The overall model structure is shown as above, where the core part is the bottom pre-trained sentence embedding transformer from HuggingFace.     
 Specifically, two sentence-level encoders **all-MiniLM-L6-v2** & **all-distilroberta-v1** are used in this project and their empirical performances are compared side by side.   </p> 
 
@@ -30,7 +30,7 @@ Other than the proposed model, other comparison baselines used are:
 • HiBERT model proposed in the paper: "HIBERT: Document Level Pre-training of Hierarchical Bidirectional Transformers for
 Document Summarization" [3]     
 The final evaluation result is shown in the table below: (PTX-Sum is our proposed model name)
-![result11](https://github.com/zhangziyi1996/Sentence-Level-Summ/assets/143377198/f41c476f-9eb5-4560-85c3-c16195c9f9a4)
+![result](Images/Result.png)
 
 As what can be seen in the table, our proposed model which uses all-MiniLM-L6-v2 as sentence-level encoder achieves the best result.
 ### References
