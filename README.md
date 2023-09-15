@@ -4,7 +4,7 @@
  
  ### Model Structure
  
-![Model structure](Images/Model structure.png)      
+![Model structure](Images/Model_structure.png)      
 <p align="justify">The overall model structure is shown as above, where the core part is the bottom pre-trained sentence embedding transformer from HuggingFace.     
 Specifically, two sentence-level encoders **all-MiniLM-L6-v2** & **all-distilroberta-v1** are used in this project and their empirical performances are compared side by side.   </p> 
 
